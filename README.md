@@ -1,4 +1,4 @@
-```markdown
+
 # NNu-net and ResNet34 for Animal Recognition
 
 這是一個專注於電腦視覺與深度學習實作的專案，主要探討如何利用 UNet 架構結合 ResNet34 作為主幹網路（Backbone），來進行精準的動物影像辨識與語意分割（Semantic Segmentation）。
@@ -9,8 +9,7 @@
 * **效能追蹤**：實作了完整的 Loss 計算與驗證集評估機制。
 
 ## 📂 專案架構 (Project Structure)
-```
-text
+```text
 ├── dataset/             # (Git Ignore) 資料集存放位置
 ├── saved_models/        # (Git Ignore) 訓練好的權重檔 (.pth)
 ├── src/                 # 原始碼目錄
@@ -51,4 +50,3 @@ python src/inference.py --image_path ./test_image.jpg --model_weights ./saved_mo
 ## 📈 實驗結果 (Results)
 * 在 Test Set 上的表現：
   * **Accuracy**: 於Kaggle 競賽獲得 0.91 dice scroe
-
