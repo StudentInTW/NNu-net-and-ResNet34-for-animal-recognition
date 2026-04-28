@@ -20,8 +20,7 @@
 │   ├── oxford_pet.py    # 資料集載入與前處理 (Dataset & DataLoader)
 │   └── utils.py         # 共用工具與函式
 ├── requirements.txt     # 套件依賴清單
-└── README.md
-```
+└── README.md```
 
 ## 📊 資料集來源 (Dataset)
 本專案使用 **Oxford-IIIT Pet Dataset** 進行訓練與測試。
