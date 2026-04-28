@@ -4,9 +4,9 @@
 這是一個專注於電腦視覺與深度學習實作的專案，主要探討如何利用 UNet 架構結合 ResNet34 作為主幹網路（Backbone），來進行精準的動物影像辨識與語意分割（Semantic Segmentation）。
 
 ## 💡 核心技術與特色 (Features)
-* **自定義模型架構**：從頭實作標準 UNet，並整合預訓練的 ResNet34 提取深層特徵。
+* **自定義模型架構**：從頭實作標準 UNet，並整合預訓練的 ResNet34 提取深層特徵(無高階api)。
 * **模組化設計**：將訓練 (Training)、推論 (Inference) 與評估 (Evaluation) 邏輯完全解耦，符合軟體工程的擴展性原則。
-* **效能追蹤**：實作了完整的 Loss 計算與驗證集評估機制。
+* **效能追蹤**：模型在未見過的測試集上，Mean IoU 達到 0.91 以上的水準。
 
 ## 📂 專案架構 (Project Structure)
 ```text
