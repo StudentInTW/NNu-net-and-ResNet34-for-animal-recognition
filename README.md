@@ -9,7 +9,8 @@
 * **效能追蹤**：實作了完整的 Loss 計算與驗證集評估機制。
 
 ## 📂 專案架構 (Project Structure)
-```text
+```
+text
 ├── dataset/             # (Git Ignore) 資料集存放位置
 ├── saved_models/        # (Git Ignore) 訓練好的權重檔 (.pth)
 ├── src/                 # 原始碼目錄
@@ -20,7 +21,8 @@
 │   ├── oxford_pet.py    # 資料集載入與前處理 (Dataset & DataLoader)
 │   └── utils.py         # 共用工具與函式
 ├── requirements.txt     # 套件依賴清單
-└── README.md```
+└── README.md
+```
 
 ## 📊 資料集來源 (Dataset)
 本專案使用 **Oxford-IIIT Pet Dataset** 進行訓練與測試。
