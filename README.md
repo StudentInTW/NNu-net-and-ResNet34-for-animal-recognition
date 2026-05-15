@@ -1,5 +1,5 @@
 
-# NNu-net and ResNet34 for Animal Recognition
+# u-net and ResNet34 for Animal Recognition
 
 這是一個專注於電腦視覺與深度學習實作的專案，主要探討如何利用 UNet 架構結合 ResNet34 作為主幹網路（Backbone），來進行精準的動物影像辨識與語意分割（Semantic Segmentation）。
 
